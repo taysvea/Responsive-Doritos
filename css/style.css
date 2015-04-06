@@ -1,0 +1,637 @@
+
+/* 1.   Styles
+--------------------------------------------------------------------------------*/
+
+body {
+  position: relative;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+   
+}
+
+
+p {
+  line-height: 26px;
+    
+}
+
+
+.container {
+  position: relative;
+}
+
+.section {
+  position: relative;
+}
+
+.section-heading {
+  position: relative;
+  
+
+}
+
+
+.pd {
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
+
+h1 {
+
+font-family: "Montserrat", sans-serif;
+padding-top: 20px;
+font-size: 80px;
+}
+
+
+.h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #121213;
+  line-height: 1.3em;
+  letter-spacing: 0.02em;
+}
+
+
+.h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #121213;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+}
+
+
+ h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #121213;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+}
+
+
+.sm, h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #121213;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+
+. h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #121213;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+/* 3.   Home
+--------------------------------------------------------------------------------*/
+.home-doritos {
+  position: relative;
+  overflow: hidden;
+text-align: center
+    
+    
+ 
+}
+.home-doritos .home-content {
+  display: inline-block;
+  padding: 20px 15px;
+    
+        
+}
+.home-doritos .home-content .icon {
+  font-size: 26px;
+  color: #fff;
+}
+
+.home-doritos .home-content  {
+  color: #fff;
+  letter-spacing: 0.005em;
+}
+
+.awe-hr {
+  position: relative;
+  border: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.awe-hr:before, .awe-hr:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 0;
+  border-top: 3px dotted #fff;
+  top: 50%;
+  
+}
+.awe-hr:before {
+  left: -30px;
+}
+.awe-hr:after {
+  right: -30px;
+}
+
+
+.awe-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.overlay-default {
+  background-color: #ca4125;
+}
+
+
+
+.ribbon {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid transparent;
+  z-index: 9;
+}
+.ribbon .sm {
+  padding: 7px 35px;
+  margin: 0;
+}
+.ribbon .sm:after, .ribbon .sm:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.ribbon .sm:after {
+  left: 5px;
+}
+.ribbon .sm:before {
+  right: 5px;
+}
+.ribbon:after, .ribbon:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-width: 20px 10px;
+  top: 0;
+  z-index: -1;
+}
+.ribbon:after {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+  right: 1px;
+}
+.ribbon:before {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  left: 1px;
+}
+.ribbon.ribbon-1 {
+  border-bottom: 1px solid #000;
+}
+.ribbon.ribbon-1 .sm {
+  background-color: #000;
+  color: #fff;
+}
+.ribbon.ribbon-1 .sm:after, .ribbon.ribbon-1 .sm:before {
+  background-color: #ffd34e;
+}
+.ribbon.ribbon-1:after, .ribbon.ribbon-1:before {
+  border-top-color: #000;
+  border-bottom-color: #000;
+}
+.ribbon.ribbon-1:after {
+  border-left-color: #000;
+}
+.ribbon.ribbon-1:before {
+  border-right-color: #000;
+}
+.ribbon.ribbon-2 {
+  border-bottom: 1px solid #000;
+}
+.ribbon.ribbon-2 .sm {
+  background-color: #000;
+  color: #fff;
+}
+.ribbon.ribbon-2 .sm:after, .ribbon.ribbon-2 .sm:before {
+  background-color: #fff;
+}
+.ribbon.ribbon-2:after, .ribbon.ribbon-2:before {
+  border-top-color: #000;
+  border-bottom-color: #000;
+}
+.ribbon.ribbon-2:after {
+  border-left-color: #000;
+}
+.ribbon.ribbon-2:before {
+  border-right-color: #000;
+}
+.ribbon.ribbon-3 {
+  border-bottom: 1px solid #ffd34e;
+}
+.ribbon.ribbon-3 .sm {
+  background-color: #ffd34e;
+  color: #262626;
+}
+.ribbon.ribbon-3 .sm:after, .ribbon.ribbon-3 .sm:before {
+  background-color: #262626;
+}
+.ribbon.ribbon-3:after, .ribbon.ribbon-3:before {
+  border-top-color: #ffd34e;
+  border-bottom-color: #ffd34e;
+}
+.ribbon.ribbon-3:after {
+  border-left-color: #ffd34e;
+}
+.ribbon.ribbon-3:before {
+  border-right-color: #ffd34e;
+}
+.ribbon.ribbon-4 {
+  border-bottom: 1px solid #fff;
+}
+.ribbon.ribbon-4 .sm {
+  background-color: #fff;
+  color: #262626;
+}
+.ribbon.ribbon-4 .sm:after, .ribbon.ribbon-4 .sm:before {
+  background-color: #262626;
+}
+.ribbon.ribbon-4:after, .ribbon.ribbon-4:before {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.ribbon.ribbon-4:after {
+  border-left-color: #fff;
+}
+.ribbon.ribbon-4:before {
+  border-right-color: #fff;
+}
+
+.bx-wrapper {
+  position: relative;
+}
+
+
+/* 4.   Boxes
+--------------------------------------------------------------------------------*/
+
+
+.boxes {
+
+  text-align: center;
+}
+
+
+
+/* 5.  DESCIPTION
+--------------------------------------------------------------------------------*/
+
+.casserole {
+   max-width: 100%
+float: left;
+}
+
+
+.description .description-content {
+  margin-top: 130px;
+    float: right;
+}
+.description .description-content p {
+  line-height: 1.9em;
+  letter-spacing: 0.003em;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  max-width: 960px;
+  margin: auto;
+  font: 18px "Quattrocento Sans", sans-serif;
+    
+  }
+  .flexbox p{
+    font:18px "Quattrocento Sans", sans-serif;
+      line-height: 27px;
+  }
+
+
+  figure {
+    margin: 0;
+  }
+
+
+
+.flexbox > * {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+
+
+h1 {
+font-size: 80px;
+margin: 0px;
+}
+
+.intro div {
+  
+    line-height: 24px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.flexitem { 
+  flex: 1 1 0; 
+    justify-content: space-around;
+    min-width: 350px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+ max-width: 100%;   
+}
+
+
+
+.example div {
+  width: 96%;
+  height: 80px;
+  padding: 10px;
+  background: white;
+  align-self: right;
+}
+
+.example img {
+    max-width: 100%;
+    height: 364px;
+    align-self: center;
+}
+
+.example p{
+    font-size: 20px;
+    margin: 10px;
+    align: center;
+}/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* 11.   Ingredients/ DIRECTIONS 
+--------------------------------------------------------------------------------*/
+
+.block-right .item {
+  position: relative;
+  border: 5px solid #ca4125;
+  width: 100%;
+  max-width: 270px;
+  padding: 68px 25px 28px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.block-right .item .item-heading {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+  top: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.block-right .item .item-heading h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #ffd34e;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.block-right .ingre-table tr td {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  vertical-align: top;
+  padding: 12px 0;
+}
+
+
+ol {
+  margin-top: 15px;
+    padding: 10px;
+
+
+}
+ol > li {
+  position: static;
+    counter-increment: olCount;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #333;
+  list-style: none;
+    font-size: 20px
+        padding: 10px;
+    font-family: font-family: "Montserrat", sans-serif;
+    line-height: 25px;
+}
+ol > li:before {
+  content: counter(olCount);
+  display: inline-block;
+min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ffd34e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+
+  
+}
+
+
+/*RESPONSIVE ELEMENTS*/
+
+@media all and (min-width: 400px) {
+
+
+
+  h1 {
+    text-align: center;
+      font-size: 40px;
+  }
+  
+  .instructions {
+    flex-direction: column;
+  }
+
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+
+ 
+
+  h1 {
+    text-align: center;
+      font-size: 90px;
+   }
+
+  .instructions {
+    flex-direction: column;
+  }
+
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 1 0px; }
+ .instructions {
+    flex-direction: row;
+     
+  }
+}
+h1 {
+    font-size: 100px;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    .comments, nav, form {
+        display: none;
+    }
+}
+
+
+
+
+
